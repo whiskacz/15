@@ -4,5 +4,6 @@ header img{
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 100%;
-    height: auto;
+    min-height: 100%;
+    
 }

@@ -1,8 +1,11 @@
 import React from 'react'
+import { Route } from 'react-router-dom'
 
-const Footer = () =>{
+const Footer = (props) =>{
     return(
-        <div>Footer</div>
+        
+            <h2>Footer</h2>
+            
     )
 }
 

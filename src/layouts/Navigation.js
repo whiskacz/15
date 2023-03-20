@@ -6,7 +6,7 @@ import '../styles/Navigation.css'
 
 const Navigation = () =>{
 const list = [
-    { name: "start", path: "/", exact: true},
+    { name: "start", path: "/"},
     { name: "produkty", path: "/products"},
     { name: "kontakt", path: "/contact"},
     { name: "pole admina", path: "/admin"},
@@ -14,7 +14,7 @@ const list = [
 
 const menu = list.map(item => (
     <li key={item.name}>
-        <NavLink to={item.path} exact={item.exact? item.exact: false}>{item.name}</NavLink></li>
+        <NavLink to={item.path}>{item.name}</NavLink></li>
 )) 
 
     return(
